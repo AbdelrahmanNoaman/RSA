@@ -8,10 +8,9 @@ def isPrime(num):
 
 def generateRandomPrimeNumber():
     while(True):
-        num=random.randint(0,(2**35)-1)
+        num=random.randint(2,(2**32)-1)
         if(isPrime(num)):
             break
-    print("5lsna")    
     return num    
 
 def GCD(number1,number2):
@@ -24,9 +23,25 @@ def GenerateE(PhiN):
         num=random.randint(0,PhiN-1)
         if(GCD(num,PhiN)==1):
             break
+    return num    
+
+def egcd(a, b):
+    if a == 0:
+        return (b, 0, 1)
+    else:
+        g, y, x = egcd(b % a, a)
+        return (g, x - (b // a) * y, y)
+
+def modinv(a, m):
+    g, x, y = egcd(a, m)
+    if g != 1:
+        raise Exception('modular inverse does not exist')
+    else:
+        return x % m
+    
 
 def GenerateD(E,PhiN):
-    return pow(E,-1,PhiN) 
+    return modinv(E,PhiN) 
 
 def convCharToNum(c):
     if(ord(c)>=97 and ord(c)<=122):
@@ -46,7 +61,6 @@ def encode(s):
     counter=0
     for i in range(5):
         charValue=convCharToNum(s[i])
-        print(charValue)
         counter+= charValue*pow(37,4-i)
     return counter  
 
@@ -58,11 +72,12 @@ def decode(s):
         s=s%(pow(37,4-i))
     return group 
 
+
 def GenerateRequiredNumbers():
     p=generateRandomPrimeNumber()
     q=generateRandomPrimeNumber()
     N=p*q
-    phiN=(p-1)(q-1)
+    phiN=(p-1)*(q-1)
     e=GenerateE(phiN)
     d=GenerateD(e,phiN)
     return e,N,d
