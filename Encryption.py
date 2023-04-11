@@ -1,8 +1,8 @@
 from GenerateNumbers import *
 
-def encrypt(message,EncKey,N):
-    M=encode(message)
-    C=pow(message,EncKey)%N
+def encrypt(PlainText,EncKey,N):
+    M=encode(PlainText)
+    C=pow(M,EncKey)%N
     return C
     
 
