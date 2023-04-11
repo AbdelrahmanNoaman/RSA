@@ -1,5 +1,4 @@
 import random
-import math
 
 def isPrime(num):
     for n in range(2,int(num**0.5)+1):
@@ -58,5 +57,15 @@ def decode(s):
         group+=chr(convNumToChar(value))
         s=s%(pow(37,4-i))
     return group 
+
+def GenerateRequiredNumbers():
+    p=generateRandomPrimeNumber()
+    q=generateRandomPrimeNumber()
+    N=p*q
+    phiN=(p-1)(q-1)
+    e=GenerateE(phiN)
+    d=GenerateD(e,phiN)
+    return e,N,d
+
 
 
