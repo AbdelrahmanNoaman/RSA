@@ -1,6 +1,10 @@
 from GenerateNumbers import *
 
 def decrypt(cipherText,DecKey,N):
-    M=pow(cipherText,DecKey,N)
-    textMsg=decode(M)
-    return textMsg
+    blocks=cipherText.split('-')
+    finalText=""
+    for block in blocks:
+        M=pow(int(block),DecKey,N)
+        textMsg=decode(M)
+        finalText+=textMsg
+    return finalText
