@@ -25,7 +25,7 @@
 <br>
 
 ```
-git clone [https://github.com/AbdelrahmanNoaman/RSA.git](https://github.com/AbdelrahmanNoaman/RSA/)
+git clone https://github.com/AbdelrahmanNoaman/RSA.git
 ```
 
 <li>Run Client.
