@@ -8,7 +8,8 @@
 
 ## 📙 About <a name = "about"></a>
 
-- A program that encrypts/decrypts text using the RSA algorithm along with another one that tries to break it & gets the correct private key (Different Key Sizes). The RSA Algorithm is based on the mathematical properties of prime numbers and modular arithmetic, and its security relies on the difficulty of factoring large composite numbers into their prime factors. We will attempt such an attack in this project and we’ll also analyze different key sizes with their computation time.
+- A chatting program that encrypts/decrypts messages sent from one user to another to obtain secrecy between them as no one can decrypt the sent message except the one who should receive it, using the RSA algorithm 
+- with another program that tries to break it & gets the correct private key, declaring the difference will happen when we change the size of the keys that we used in The RSA Algorithm 
 
 ## 💻 Built Using <a name = "tech"></a>
 
@@ -58,27 +59,9 @@ python -u .\client.py
 <br>
 
 ```
-python -u attackRSA.py
+python -u .\attackRSA.py
 ```
 <hr>
 
-## 📷 Screenshots <a name = "Screenshots"></a>
-
-<div align="center">
-   <img src="Screenshots/Chat.jpg"></a>
-   <hr>
-</div>
-
-## Contributors <a name = "Contributors"></a>
-
-<table>
-  <tr>
-    <td align="center">
-    <a href="https://github.com/AbdelrahmanNoaman" target="_blank">
-    <br />
-    <sub><b>Abdelrahman Noaman</b></sub></a>
-    </td>
-  </tr>
- </table>
 
 
