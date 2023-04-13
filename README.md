@@ -39,7 +39,7 @@ python -u .\client.py
 <li>Choose 1 to be a host.
   
 <li>Enter your name.
-
+<hr>
 
 <li>Open a new terminal and Run client again.
 
