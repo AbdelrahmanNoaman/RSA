@@ -22,7 +22,7 @@
 
 
 ## 🏁 Getting Started <a name = "get-started"></a>
-> This is an list of needed instructions to set up your project locally, to get a local copy up and running follow these
+> This is a list of needed instructions to set up your project locally, to get a local copy up and running follow these
 > instructions
 ### Installation <a name = "Install"></a>
 
@@ -42,18 +42,14 @@ $ cd RSA
 ```sh
 python -u .\client.py
 ```
-> Choose 1 to be the host:
-<br>
-> Enter your name:
+> Choose 1 to be the host, then enter your name:
 
 2. **_Open a new terminal and Run the client to connect_**
 
 ```sh
 python -u .\client.py
 ```
-> Choose 2 to be the connect:
-<br>
-> Enter your name:
+> Choose 2 to connect, then enter your name:
 
 3. **_To run the attack, run attackRSA file_**
 
