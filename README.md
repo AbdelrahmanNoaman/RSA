@@ -22,6 +22,7 @@
 
 <br>
 ## 🏁 Getting Started <a name = "get-started"></a>
+<br>
 ### Installation <a name = "Install"></a>
 
 1. **_Clone the repository_**
@@ -35,7 +36,7 @@ $ cd RSA
 ```
 ### Running <a name = "running"></a>
 
-1. **Running the client to be the host**
+1. **_Running the client to be the host_**
 
 ```sh
 python -u .\client.py
@@ -43,7 +44,7 @@ python -u .\client.py
 Choose 1 to be the host:
 Enter your name:
 
-2. **Open a new terminal and Run the client to connect**
+2. **_Open a new terminal and Run the client to connect_**
 
 ```sh
 python -u .\client.py
@@ -51,7 +52,7 @@ python -u .\client.py
 Choose 2 to be the connect:
 Enter your name:
 
-3. **To run the attack, run attackRSA file**
+3. **_To run the attack, run attackRSA file_**
 
 ```sh
 python -u .\attackRSA.py
