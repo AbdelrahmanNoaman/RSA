@@ -22,7 +22,7 @@
 
 
 ## 🏁 Getting Started <a name = "get-started"></a>
-> This is a list of needed instructions to set up your project locally.
+> This is a list of needed instructions to set up the project locally.
 ### Installation <a name = "Install"></a>
 
 1. **_Clone the repository_**
