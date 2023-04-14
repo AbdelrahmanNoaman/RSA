@@ -11,8 +11,8 @@
 
 ## 📙 About <a name = "about"></a>
 
-- A chatting program that encrypts/decrypts messages sent from one user to another to obtain secrecy between them as no one can decrypt the sent message except the one who should receive it, using the RSA algorithm 
-- with another program that tries to break it & gets the correct private key, declaring the difference will happen when we change the size of the keys that we used in The RSA Algorithm 
+- A chatting program that encrypts/decrypts messages sent from one user to another to obtain secrecy between them as no one can decrypt the sent message except the one who should receive it, using the RSA algorithm.
+- with another program that tries to break it & gets the correct private key, declaring the difference will happen when we change the size of the keys that we used in The RSA Algorithm.
 
 ## 💻 Built Using <a name = "tech"></a>
 
@@ -23,7 +23,6 @@
 
 ## 🏁 Getting Started <a name = "get-started"></a>
 > This is a list of needed instructions to set up your project locally.
-> instructions
 ### Installation <a name = "Install"></a>
 
 1. **_Clone the repository_**
