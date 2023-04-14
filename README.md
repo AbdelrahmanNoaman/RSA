@@ -20,9 +20,10 @@
 - **Socket-IO**
 - **Threading**
 
-<br>
+
 ## 🏁 Getting Started <a name = "get-started"></a>
-<br>
+> This is an list of needed instructions to set up your project locally, to get a local copy up and running follow these
+> instructions
 ### Installation <a name = "Install"></a>
 
 1. **_Clone the repository_**
@@ -41,16 +42,18 @@ $ cd RSA
 ```sh
 python -u .\client.py
 ```
-Choose 1 to be the host:
-Enter your name:
+> Choose 1 to be the host:
+<br>
+> Enter your name:
 
 2. **_Open a new terminal and Run the client to connect_**
 
 ```sh
 python -u .\client.py
 ```
-Choose 2 to be the connect:
-Enter your name:
+> Choose 2 to be the connect:
+<br>
+> Enter your name:
 
 3. **_To run the attack, run attackRSA file_**
 
@@ -67,7 +70,6 @@ python -u .\attackRSA.py
     <img src="https://avatars.githubusercontent.com/u/76150639?s=400&u=4f3894f139c1383fadc15efdbed6207e936a2a20&v=4" width="150px;" alt="Abdelrahman Noaman"/>
     <br />
     <sub><b>Abdelrahman Noaman</b></sub></a>
-
   </td>
   </tr>
  </table>
