@@ -22,7 +22,7 @@
 
 
 ## 🏁 Getting Started <a name = "get-started"></a>
-> This is a list of needed instructions to set up your project locally, to get a local copy up and running follow these
+> This is a list of needed instructions to set up your project locally.
 > instructions
 ### Installation <a name = "Install"></a>
 
