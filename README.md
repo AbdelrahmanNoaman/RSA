@@ -4,6 +4,9 @@
 
 - [About](#about)
 - [Technology](#tech)
+- [Get started](#get-started)
+  - [Installation](#Install)
+  - [Running](#running)
 - [Contributors](#Contributors)
 
 ## 📙 About <a name = "about"></a>
@@ -17,51 +20,54 @@
 - **Socket-IO**
 - **Threading**
 
-<hr>
 <br>
+## 🏁 Getting Started <a name = "get-started"></a>
+### Installation <a name = "Install"></a>
 
-<li>Clone the repository.
+1. **_Clone the repository_**
 
-<br>
-
-```
+```sh
 git clone https://github.com/AbdelrahmanNoaman/RSA.git
 ```
-<hr>
-<li>Run Client.
-
-<br>
-
+2. **_Navigate to repository directory_**
+```sh
+$ cd RSA
 ```
+### Running <a name = "running"></a>
+
+1. **Running the client to be the host**
+
+```sh
 python -u .\client.py
 ```
-  
-<li>Choose 1 to be a host.
-  
-<li>Enter your name.
-<hr>
+Choose 1 to be the host:
+Enter your name:
 
-<li>Open a new terminal and Run client again.
+2. **Open a new terminal and Run the client to connect**
 
-<br>
-
-```
+```sh
 python -u .\client.py
 ```
-  
-<li>Choose 2 to connect.
-  
-<li>Enter your name.
+Choose 2 to be the connect:
+Enter your name:
 
-<hr>
-<li>To run the attack:
+3. **To run the attack, run attackRSA file**
 
-<br>
-
-```
+```sh
 python -u .\attackRSA.py
 ```
-<hr>
 
+## Contributors <a name = "Contributors"></a>
 
+<table>
+  <tr>
+    <td align="center">
+    <a href="https://github.com/AbdelrahmanNoaman" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/76150639?s=400&u=4f3894f139c1383fadc15efdbed6207e936a2a20&v=4" width="150px;" alt="Abdelrahman Noaman"/>
+    <br />
+    <sub><b>Abdelrahman Noaman</b></sub></a>
+
+  </td>
+  </tr>
+ </table>
 
